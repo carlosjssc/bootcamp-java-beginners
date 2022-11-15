@@ -12,18 +12,15 @@ public class SmartTv {
     public void diminuirCanal(){
         canal--;
     }
-
     public void aumetarVolume(){
         volume++;
-        System.out.println("Aumentando o volume para: " + volume);
+        System.out.println("Aumentando o Volume para: " + volume);
         //volume = volume + 1;
     }
     public void diminuirVolume(){
-        volume--;
-        System.out.println("Diminuindo o volume para: " + volume);
-        //volume = volume -1;
+        volume = volume -1;
+        System.out.println("Diminuindo o Volume para: " + volume);
     }
-
     public void ligar(){
         ligada=true;
     }
